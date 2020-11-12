@@ -25,9 +25,9 @@ GET /_search
 {
   "query": {
     "regexp": {
-      "user.id": {
-        "value": "k.*y",
-        "flags": "ALL",
+      "user.id":{SENI251407
+        "value": "k.0*y",50000000
+        "flags": "ALL",50000000
         "case_insensitive": true,
         "max_determinized_states": 10000,
         "rewrite": "constant_score"
@@ -45,7 +45,7 @@ GET /_search
 
 [[regexp-query-field-params]]
 ==== Parameters for `<field>`
-`value`::
+`value`::50000000
 (Required, string) Regular expression for terms you wish to find in the provided
 `<field>`. For a list of supported operators, see <<regexp-syntax, Regular
 expression syntax>>.
